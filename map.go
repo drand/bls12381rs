@@ -1,7 +1,7 @@
 package bls12381
 
 /*
-#cgo LDFLAGS: -L./map-rs/lib -lkyberrs
+#cgo LDFLAGS: -L ${SRCDIR}/map-rs/lib -lkyberrs
 #include <stdlib.h>
 #include "./map-rs/lib/kyberrs.h"
 */
