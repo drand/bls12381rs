@@ -17,6 +17,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/filecoin-project/filecoin-ffi v0.0.0-20200324233837-41b20ed16500 h1:9uMoLgOOBapysX3jTHC1vRRRUmr7CrukrcEMmbqOT8g=
 github.com/filecoin-project/filecoin-ffi v0.0.0-20200324233837-41b20ed16500/go.mod h1:PtH9YP0rURHUKHrKeEBeWg/BqIBMQOz8wtlXlVGREBE=
+github.com/filecoin-project/filecoin-ffi v0.0.0-20200326140424-59e1ffb992c1 h1:V2b2QDFr3reCmNTfAo4QDr9Pt/H1fA2QwuLnCPu3eFs=
+github.com/filecoin-project/filecoin-ffi v0.0.0-20200326140424-59e1ffb992c1/go.mod h1:PtH9YP0rURHUKHrKeEBeWg/BqIBMQOz8wtlXlVGREBE=
 github.com/filecoin-project/go-address v0.0.2-0.20200218010043-eb9bb40ed5be h1:TooKBwR/g8jG0hZ3lqe9S5sy2vTUcLOZLlz3M5wGn2E=
 github.com/filecoin-project/go-address v0.0.2-0.20200218010043-eb9bb40ed5be/go.mod h1:SAOwJoakQ8EPjwNIsiakIQKsoKdkcbx8U3IapgCg9R0=
 github.com/filecoin-project/go-amt-ipld/v2 v2.0.1-0.20200131012142-05d80eeccc5e/go.mod h1:boRtQhzmxNocrMxOXo1NYn4oUc1NGvR8tEa79wApNXg=

@@ -1,4 +1,4 @@
-package bls12381
+package bls12381rs
 
 import "fmt"
 import ffi "github.com/filecoin-project/filecoin-ffi"

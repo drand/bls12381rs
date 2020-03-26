@@ -4,5 +4,6 @@ build:
 	go build -ldflags="-r map-rs/lib" map.go
 
 test:
+	go get -t .
 	go build -ldflags="-r map-rs/lib" .
 

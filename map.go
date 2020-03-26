@@ -1,4 +1,4 @@
-package bls12381
+package bls12381rs
 
 /*
 #cgo LDFLAGS: -L ${SRCDIR}/map-rs/lib -lkyberrs
