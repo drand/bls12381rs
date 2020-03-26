@@ -1,12 +1,15 @@
 package main
 
 /*
-#cgo LDFLAGS: -L ${SRCDIR}/map-rs/lib -lkyberrs
+#cgo LDFLAGS: -L ${SRCDIR}/map-rs/lib -lkyberrs -lutil -ldl -lutil -ldl -lrt -lpthread -lgcc_s -lc -lm -lrt -lpthread -lutil -lutil
 #include <stdlib.h>
 #include "./map-rs/lib/kyberrs.h"
 */
 import "C"
-import "unsafe"
+import (
+	"fmt"
+	"unsafe"
+)
 
 // BLS_SIG_BLS12381G2-SHA256-SSWU-RO-_NUL_
 var csuite = []byte{66, 76, 83, 95, 83, 73, 71, 95, 66, 76, 83, 49, 50, 51, 56, 49, 71, 50, 45, 83, 72, 65, 50, 53, 54, 45, 83, 83, 87, 85, 45, 82, 79, 45, 95, 78, 85, 76, 95}
@@ -40,5 +43,5 @@ func MapToG1(msg []byte, domain []byte) []byte {
 }
 
 func main() {
-	MapToG1([]byte("hello world"), []byte("my domain"))
+	fmt.Printf("%x\n", MapToG1([]byte("hello world"), []byte("my domain")))
 }

@@ -16,3 +16,4 @@
 #
 
 map-rs/target/
+map-rs/lib/libkyberrs.a
