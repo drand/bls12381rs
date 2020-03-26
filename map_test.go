@@ -1,4 +1,10 @@
-package bls12381rs
+package main
+
+/*
+#cgo LDFLAGS: -L ${SRCDIR}/map-rs/lib -lkyberrs
+#include <stdlib.h>
+#include "./map-rs/lib/kyberrs.h"
+*/
 
 import "fmt"
 import ffi "github.com/filecoin-project/filecoin-ffi"

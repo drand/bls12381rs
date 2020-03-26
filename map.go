@@ -1,4 +1,4 @@
-package bls12381rs
+package main
 
 /*
 #cgo LDFLAGS: -L ${SRCDIR}/map-rs/lib -lkyberrs
@@ -37,4 +37,8 @@ func MapToG1(msg []byte, domain []byte) []byte {
 	msgLen := C.size_t(len(msg))
 	C.maptopointg1(msgPtr, msgLen, pointPtr, domainPtr, domainLen)
 	return dst
+}
+
+func main() {
+	MapToG1([]byte("hello world"), []byte("my domain"))
 }
