@@ -1,4 +1,4 @@
-package map12381
+package bls12381
 
 /*
 #cgo LDFLAGS: -L./map-rs/lib -lkyberrs
