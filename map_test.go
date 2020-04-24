@@ -1,14 +1,11 @@
 package bls12381rs
 
-/*
-#cgo LDFLAGS: -L ${SRCDIR}/map-rs/lib -lkyberrs
-#include <stdlib.h>
-#include "./map-rs/lib/kyberrs.h"
-*/
+import (
+	"fmt"
+	"testing"
 
-import "fmt"
-import ffi "github.com/filecoin-project/filecoin-ffi"
-import "testing"
+	ffi "github.com/filecoin-project/filecoin-ffi"
+)
 
 func TestMapG2Filecoin(t *testing.T) {
 	msg := []byte("hello world")
